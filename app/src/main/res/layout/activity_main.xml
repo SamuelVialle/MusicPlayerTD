@@ -52,8 +52,8 @@
                 android:id="@+id/tvCurrentPos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorAccent"
-                tools:text="00:00" />
+                android:text="00:00"
+                android:textColor="@color/colorAccent" />
 
             <SeekBar
                 android:id="@+id/sbPosition"
@@ -66,8 +66,8 @@
                 android:id="@+id/tvTotalDuration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorAccent"
-                tools:text="00:00" />
+                android:text="00:00"
+                android:textColor="@color/colorAccent" />
         </LinearLayout>
 
         <LinearLayout
